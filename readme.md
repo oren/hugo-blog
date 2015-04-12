@@ -8,9 +8,9 @@
 
 ## Run
 
-    docker-compose up -d
+    docker-compose up
 
-or
+If you want a theme run this:
 
     docker-compose run --service-ports app hugo server -t nofancy
 
